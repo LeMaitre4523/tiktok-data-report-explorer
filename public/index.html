@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css"/>
+    <link rel="stylesheet" type="text/css" href="/assets/css/styles.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.7.1/jszip.min.js" integrity="sha512-xQBQYt9UcgblF6aCMrwU1NkVA7HCXaSN2oq0so80KO+y68M+n64FOcqgav4igHe6D5ObBLIf68DWv+gfBowczg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="/assets/javascript/bundle.js"></script>
+    <title>TikTok Data Report Explorer</title>
+  </head>
+  <body id="body-pd">
+    <div id="pre-load">
+      <center>
+        <img src="/assets/images/tdre.png" height="334px" width="672px"><br>
+        <input type="file" accept=".zip" id="input-file-zip" />
+      </center>
+    </div>
+    <div style="display: none" id="post-load">
+      <header class="header" id="header">
+        <div class="header_toggle">
+          <i class="bx bx-menu" id="header-toggle"></i>
+        </div>
+        <div class="lang-select" style="width: 200px">
+          <select id="select-21dv5">
+            <option value="0">Français</option>
+            <option value="1">Anglais</option>
+          </select>
+        </div>
+        <div class="header_img">
+          <img
+            src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png"
+            alt=""
+          />
+        </div>
+      </header>
+      <div class="l-navbar" id="nav-bar">
+        <nav class="nav">
+          <div>
+            <a href="https://github.com/LeMaitre4523/tiktok-data-report-explorer" target="_blank" class="nav_logo"><i class="bx bxl-tiktok"></i><span class="nav_logo-name">TDRE</span></a>
+            <div class="nav_list">
+              <a href="/profil" class="nav_link active"><i class="bx bxs-user-detail"></i><span class="nav_name" id="navprofil">Profil</span></a>
+              <a href="/activity" class="nav_link"><i class="bx bx-user nav_icon"></i><span class="nav_name" id="navactivity">Activités</span></a>
+              <a href="/comments" class="nav_link"><i class="bx bx-message-square-detail nav_icon"></i><span class="nav_name" id="navcomments">Commentaires</span></a>
+              <a href="/posts" class="nav_link"><i class="bx bx-chat"></i><span class="nav_name" id="navmessages">Messages</span></a>
+              <a href="/videos" class="nav_link"><i class="bx bxs-videos"></i><span class="nav_name" id="navvideos">Vidéos</span></a>
+              <a href="/settings" class="nav_link"><i class="bx bx-bar-chart-alt-2 nav_icon"></i><span class="nav_name" id="navsettings">Paramètres</span></a>
+              <a href="/ads" class="nav_link"><i class="bx bx-stats"></i><span class="nav_name" id="navads">Ads et données</span></a>
+              <a href="/about" class="nav_link"><i class="bx bx-info-circle"></i><span class="nav_name" id="navabout">A propos de TDRE</span></a>
+            </div>
+          </div>
+          <a href="https://github.com/LeMaitre4523/tiktok-data-report-explorer" target="_blank" class="nav_link"><span class="nav_name">By LeMaitre4523</span></a>
+        </nav>
+      </div>
+    </div>
+    <!--Container Main start-->
+    <div id="post-load-2" style="display: none" class="height-100 bg-light">
+        <h4 id="title-56s4g">Explorateur de rapports de données TikTok</h4>
+
+        <div class="info" id="info">
+            
+        </div>
+        <div class="info" id="info-2">
+            
+        </div>
+
+    </div>
+  </body>
+</html>
+
+<!--https://bbbootstrap.com/snippets/bootstrap-5-sidebar-menu-toggle-button-34132202-->
+<!-- 
+<div style="display: none;" class="container">
+                <h2>lemaitre4523</h2>
+                <h4>HOVER OVER CONTAINER</h4>
+                <p>Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Maecenas
+                sed diam eget risus varius blandit sit amet non magna ip sum dolore.</p>
+            </div>
+            <div class="container">
+                <div class="avatar-flip"> <img src="https://p16.tiktokcdn.com/img/musically-maliva-obj/1690166001833989~c5_1080x1080.webp" height="150" width="150"/> </div>
+                <h2>lemaitre4523</h2>
+                <h4>Une magnifique bio</h4>
+                <p>Anniversaire : 00/00/0000</p>
+                <p>Adresse email : test@mail.com</p>
+                <p>Numéro de téléphone : +33000000000</p>
+                <p>Anniversaire : 00/00/0000</p>
+            </div>
+            <div style="display: none;" class="container">
+                <h2>lemaitre4523</h2>
+                <h4>HOVER OVER CONTAINER</h4>
+                <p>Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Maecenas
+                sed diam eget risus varius blandit sit amet non magna ip sum dolore.</p>
+            </div>
+
+
+
+-->

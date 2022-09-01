@@ -1,0 +1,18 @@
+{
+  "name": "tiktok-data-report-explorer",
+  "version": "1.0.0",
+  "description": "An explorer for tiktok data report",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "tiktok",
+    "data",
+    "report",
+    "explorer",
+    "extract"
+  ],
+  "author": "LeMaitre4523",
+  "license": "MIT"
+}
